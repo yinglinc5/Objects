@@ -10,7 +10,9 @@ students.forEach((students) => {if(students.isHonors === true){
      console.log(`[Grade ${students.grade}] ${students.name} - GPA: ${students.gpa} ★`);
 } else{
     console.log(`[Grade ${students.grade}] ${students.name} - GPA: ${students.gpa}`);
+
 }
+})
 }
-}
+
 console.log(printRoster(students));
